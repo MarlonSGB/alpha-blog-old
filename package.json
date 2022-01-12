@@ -6,6 +6,7 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "^5.4.3",
+    "npm-force-resolutions": "^0.0.10",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
@@ -19,7 +20,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "ansi-regex": "5.0.1",
+    "glob-parent": "5.1.2",
+    "nth-check": "2.0.1"
   },
   "repository": {
     "type": "git",
