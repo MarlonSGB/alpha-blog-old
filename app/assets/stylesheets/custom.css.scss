@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+  background-color: #FDF6EA !important;
+}
+
+.nav-link {
+  color: black !important
+}
+
+h1{
+  color:red;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+#background
+{
+  background-image: asset-url('image_back.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+
+}
+
+#page-content {
+  flex: 1 0 auto;
+
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
