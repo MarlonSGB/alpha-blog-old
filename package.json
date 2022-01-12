@@ -20,8 +20,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx npm-force-resolutions"
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
   },
   "resolutions": {
     "ansi-regex": "5.0.1",
