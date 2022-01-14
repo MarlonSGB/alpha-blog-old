@@ -37,4 +37,6 @@ body {
 
 #sticky-footer {
   flex-shrink: none;
+  position: relative;
+  bottom: 0;
 }
