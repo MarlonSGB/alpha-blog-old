@@ -9,6 +9,14 @@ gem 'rails', '~> 6.0.4', '>= 6.0.4.4'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+
+# Layout
+gem 'bootstrap-sass', '3.4.1'
+gem 'jquery-rails'
+
+# Popups
+gem 'popper_js', '~> 2.9.3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker

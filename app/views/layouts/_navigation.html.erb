@@ -9,10 +9,12 @@
         <%= link_to "Bloggers", users_path, class: "nav-link" %>
       </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Articles*
 
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Articles*
+        </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <%= link_to "Create new article", new_article_path, class: "dropdown-item" %>
           <%= link_to "View articles", articles_path, class: "dropdown-item" %>
